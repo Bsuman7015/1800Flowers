@@ -23,7 +23,8 @@ public class Spring1800FlowersApplication {
 	AccountService accountService;
 	public static void main(String[] args) {
 		SpringApplication.run(Spring1800FlowersApplication.class, args);
-		
+		System.out.println("hi git");
+		System.out.println("hello git");
 	}
 	
 	@EventListener
